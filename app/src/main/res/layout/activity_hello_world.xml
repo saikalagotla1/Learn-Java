@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".hello_world">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="428dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="      Lesson 1: Hello World!"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="375dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:text="Hello world is a program that almost all aspiring computer scientists start out with. It simply prints “Hello world!” onto the screen."/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/orange_rounded_btn"
+            android:text="Practice" />
+
+    </LinearLayout>
+</ScrollView>

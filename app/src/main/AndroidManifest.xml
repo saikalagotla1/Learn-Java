@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnjava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".interfaces"></activity>
+        <activity android:name=".abstract_classes" />
+        <activity android:name=".inheritance" />
+        <activity android:name=".objects" />
+        <activity android:name=".classes" />
+        <activity android:name=".loops" />
+        <activity android:name=".functions" />
+        <activity android:name=".arrays" />
+        <activity android:name=".variables_arithmetic" />
+        <activity android:name=".lessons" />
+        <activity android:name=".variables_and_types" />
+        <activity android:name=".Lessons" />
+        <activity android:name=".variablesAndTypes" />
+        <activity android:name=".hello_world" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

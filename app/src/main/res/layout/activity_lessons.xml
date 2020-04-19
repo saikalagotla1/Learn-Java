@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".lessons">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/javaBlue" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="375dp"
+        android:background="@color/javaOrange" />
+
+    <!-- add logo here -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".lessons">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="428dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="      Lessons"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="428dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Basics"
+            android:textColor="@color/javaBlue"
+            android:textSize="24sp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Hello World!                                    >"
+            android:onClick="openHelloWorld"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Variables and Types                     >"
+            android:onClick="openVariablesAndTypes"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Variable Arithmetic                     >"
+            android:onClick="openVariableArithmetic"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Arrays                                                >"
+            android:onClick="openArrays"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Loops                                                  >"
+            android:onClick="openLoops"/>
+
+        <Button
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Functions                                         >"
+            android:onClick="openFunctions"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="428dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Object Oriented Programming"
+            android:textColor="@color/javaBlue"
+            android:textSize="24sp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Classes                                             >"
+            android:onClick="openClasses"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Objects                                             >"
+            android:onClick="openObjects"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Inheritance                                     >"
+            android:onClick="openInterfaces"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Abstract Classes                        >"
+            android:onClick="openAbstractClasses"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="@color/javaOrange"
+            android:background="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Interfaces                                       >"
+            android:onClick="openInterfaces"/>
+    </LinearLayout>
+
+</RelativeLayout>
